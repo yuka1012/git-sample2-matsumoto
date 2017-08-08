@@ -3,7 +3,16 @@ package jp.co.rakus.git_sample2_matsumoto;
 
 public class Car {
 	private int speed;
+	private String bodyColor;
 	
+	public String getBodyColor() {
+		return bodyColor;
+	}
+
+	public void setBodyColor(String bodyColor) {
+		this.bodyColor = bodyColor;
+	}
+
 	public void run(){
 		this.speed+=10;
 	}
